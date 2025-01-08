@@ -1,3 +1,3 @@
-const baseUrl = "http://localhost:3000/api";
-const assetsBaseUrl = `http://localhost:3000`;
+const baseUrl = "https://api-portfolio-xldg.onrender.com/api";
+const assetsBaseUrl = `https://api-portfolio-xldg.onrender.com/`;
 export { baseUrl, assetsBaseUrl };

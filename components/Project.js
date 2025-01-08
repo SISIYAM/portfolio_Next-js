@@ -13,7 +13,7 @@ function Project() {
       .get(`${baseUrl}/projects/all`)
       .then((response) => {
         if (response.data.success) {
-          setProjects(response.data.allProjects);
+          setProjects(response.data.projects);
         }
       })
       .catch((error) => {
@@ -58,7 +58,10 @@ function Project() {
             </ul>
           </div>
         </div>
-        <div className="row g-4 portfolio-container m-5">
+        <div
+          className="row g-4 portfolio-container"
+          style={{ marginBottom: "150px" }}
+        >
           {projects.length > 0 ? (
             projects.map((project, index) => (
               <div
@@ -84,7 +87,7 @@ function Project() {
                     >
                       <i className="bi bi-eye" />
                     </a>
-                    <Link className="mx-5" href={`/projects/${project._id}`}>
+                    <Link className="mx-5" href={`/projects`}>
                       <button className="btn btn-success btn-lg">
                         View Project
                       </button>
