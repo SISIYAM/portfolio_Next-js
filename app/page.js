@@ -20,11 +20,11 @@ function page() {
     take on challenges and contribute innovative solutions.`,
     frontEnd: `HTML,CSS,JavaScript`,
     backEnd: `PHP, JavaScript`,
-    frameWorks: `Laravel, React js, Next js, Node js, Express js, Vue js, Bootstrap, Jquery (JavaScript Library)`,
-    database: `Mysql, MongoDB`,
+    frameWorks: `Laravel, React js, Next js, Node js, Express js, Vue js, Bootstrap, Tailwind CSS, Jquery (JavaScript Library)`,
+    database: `Mysql, MongoDB, PostgreSQL`,
     programmingLanguage: `Python, C, C++, Java, JavaScript, PHP`,
     software: `MS Word, MS Powerpoint, MS Excel, Photoshop, Proteus`,
-    projectComplete: `24`,
+    projectComplete: `100+`,
   };
 
   return (

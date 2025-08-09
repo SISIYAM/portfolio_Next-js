@@ -34,8 +34,7 @@ function Header() {
               style={{ color: "#d9d3f8", fontWeight: "bold" }}
             />
             <div className="typed-text d-none ">
-              Web Designer, Web Developer, Front End Developer, Back End
-              Developer
+              Web Developer, Front End Developer, Back End Developer
             </div>
             <div className="d-flex align-items-center pt-5">
               <a href="#about" className="btn btn-primary py-3 px-4 me-5">

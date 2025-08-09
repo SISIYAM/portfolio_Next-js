@@ -102,7 +102,7 @@ function Expertise() {
                 <div className="skill mb-4">
                   <div className="d-flex justify-content-between">
                     <h6 className="text-light font-weight-bold">
-                      MysQl | MongoDB
+                      MysQl | MongoDB | PostgreSQL
                     </h6>
                     <h6 className="text-light font-weight-bold">80%</h6>
                   </div>
@@ -172,22 +172,162 @@ function Expertise() {
               </li>
             </ul>
             <div className="tab-content">
-              <div id="tab-1" className="tab-pane fade show p-0 ">
-                <div className="row gy-5 gx-4">
-                  <div className="col-sm-6">
-                    <h5 className="text-light">UI Designer</h5>
+              <div
+                id="tab-1"
+                className="tab-pane fade show p-0"
+                style={{
+                  padding: "20px",
+                  backgroundColor: "#1e1e2f",
+                  borderRadius: "10px",
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    gap: "20px",
+                  }}
+                >
+                  {/* Card 1 */}
+                  <div
+                    style={{
+                      flex: "1 1 calc(50% - 20px)",
+                      backgroundColor: "#2a2a40",
+                      padding: "15px",
+                      borderRadius: "8px",
+                      boxShadow: "0 2px 6px rgba(0,0,0,0.2)",
+                    }}
+                  >
+                    <h5 className="text-light" style={{ marginBottom: "8px" }}>
+                      Freelancer at Fiverr
+                    </h5>
+                    <p
+                      style={{
+                        color: "#9f9f9f",
+                        fontSize: "13px",
+                        margin: "0 0 8px",
+                      }}
+                    >
+                      Jan 2024 – Present
+                    </p>
+                    <ul
+                      style={{
+                        color: "#b0b0b0",
+                        fontSize: "14px",
+                        paddingLeft: "18px",
+                      }}
+                    >
+                      <li>HTML, CSS, JavaScript</li>
+                      <li>React.js, Next.js, Node.js, Laravel</li>
+                    </ul>
                   </div>
-                  <div className="col-sm-6">
-                    <h5 className="text-light">Web Designer</h5>
+
+                  {/* Card 2 */}
+                  <div
+                    style={{
+                      flex: "1 1 calc(50% - 20px)",
+                      backgroundColor: "#2a2a40",
+                      padding: "15px",
+                      borderRadius: "8px",
+                      boxShadow: "0 2px 6px rgba(0,0,0,0.2)",
+                    }}
+                  >
+                    <h5 className="text-light" style={{ marginBottom: "8px" }}>
+                      Former Tech Intern at Apars Classroom
+                    </h5>
+                    <p
+                      style={{
+                        color: "#9f9f9f",
+                        fontSize: "13px",
+                        margin: "0 0 8px",
+                      }}
+                    >
+                      Nov 2024 – Jan 2025
+                    </p>
+                    <ul
+                      style={{
+                        color: "#b0b0b0",
+                        fontSize: "14px",
+                        paddingLeft: "18px",
+                      }}
+                    >
+                      <li>React.js, Next.js,Node.js,MongoDB</li>
+                    </ul>
                   </div>
-                  <div className="col-sm-6">
-                    <h5 className="text-light">Font End Developer</h5>
+
+                  {/* Card 3 */}
+                  <div
+                    style={{
+                      flex: "1 1 calc(50% - 20px)",
+                      backgroundColor: "#2a2a40",
+                      padding: "15px",
+                      borderRadius: "8px",
+                      boxShadow: "0 2px 6px rgba(0,0,0,0.2)",
+                    }}
+                  >
+                    <h5 className="text-light" style={{ marginBottom: "8px" }}>
+                      Junior Software Engineer at Chorcha
+                    </h5>
+                    <p
+                      style={{
+                        color: "#9f9f9f",
+                        fontSize: "13px",
+                        margin: "0 0 8px",
+                      }}
+                    >
+                      Sept 2025 – Present
+                    </p>
+                    <ul
+                      style={{
+                        color: "#b0b0b0",
+                        fontSize: "14px",
+                        paddingLeft: "18px",
+                      }}
+                    >
+                      <li>React.js, Next.js,Node.js, Express.js</li>
+                    </ul>
                   </div>
-                  <div className="col-sm-6">
-                    <h5 className="text-light">Back End Developer</h5>
+
+                  {/* Card 4 */}
+                  <div
+                    style={{
+                      flex: "1 1 calc(50% - 20px)",
+                      backgroundColor: "#2a2a40",
+                      padding: "15px",
+                      borderRadius: "8px",
+                      boxShadow: "0 2px 6px rgba(0,0,0,0.2)",
+                    }}
+                  >
+                    <h5 className="text-light" style={{ marginBottom: "8px" }}>
+                      Back-End Developer
+                    </h5>
+                    <p
+                      style={{
+                        color: "#9f9f9f",
+                        fontSize: "13px",
+                        margin: "0 0 8px",
+                      }}
+                    >
+                      Jun 2021 – Present
+                    </p>
+                    <ul
+                      style={{
+                        color: "#b0b0b0",
+                        fontSize: "14px",
+                        paddingLeft: "18px",
+                      }}
+                    >
+                      <li>
+                        PHP, Laravel, Node.js, Express.js, React.js, Next.js,
+                        MongoDB, MySql, PostgreSQL
+                      </li>
+                      <li>API Development</li>
+                      <li>Database Management</li>
+                    </ul>
                   </div>
                 </div>
               </div>
+
               <div id="tab-2" className="tab-pane fade show p-0 active">
                 <div className="row gy-5 gx-4">
                   <div className="col-sm-6">
@@ -197,8 +337,7 @@ function Expertise() {
                     <hr className="text-light my-2" />
                     <p className="text-light mb-1">2023- Now</p>
                     <h6 className="text-light mb-0">
-                      Bangabandhu Sheikh Mujibur Rahman Aviation And Aerospace
-                      University
+                      Aviation And Aerospace University Bangladesh
                     </h6>
                   </div>
                   <div className="col-sm-6">

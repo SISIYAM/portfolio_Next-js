@@ -8,11 +8,11 @@ function About(props) {
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="d-flex align-items-center mb-5">
               <div className="years flex-shrink-0 text-center me-4">
-                <h1 className="display-1 mb-0 text-light">2</h1>
-                <h5 className="mb-0 text-warning">Years</h5>
+                <h1 className="display-1 mb-0 text-light">3</h1>
+                <h5 className="mb-0 text-warning">Years+</h5>
               </div>
               <h3 className="lh-base mb-0 text-primary">
-                of working experience as a web designer &amp; developer
+                of working experience as a Full Stack Web Developer
               </h3>
             </div>
             <p className="mb-3 text-light">
@@ -125,8 +125,7 @@ function About(props) {
                       Institution:
                     </span>
                     <span className="text-light" style={{ paddingLeft: 10 }}>
-                      Bangabandhu Sheikh Mujibur Rahman Aviation And Aerospace
-                      University
+                      Aviation And Aerospace University Bangladesh
                     </span>
                   </li>
                   <li className="d-flex py-1">
