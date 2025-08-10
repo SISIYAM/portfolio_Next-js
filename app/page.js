@@ -24,7 +24,7 @@ function page() {
     database: `Mysql, MongoDB, PostgreSQL`,
     programmingLanguage: `Python, C, C++, Java, JavaScript, PHP`,
     software: `MS Word, MS Powerpoint, MS Excel, Photoshop, Proteus`,
-    projectComplete: `100+`,
+    projectComplete: `100`,
   };
 
   return (
